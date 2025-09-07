@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class BusController {
-
     @GetMapping("/bus")
     public String busInfo(){
         System.out.println("Bus Connection");
