@@ -1,0 +1,1045 @@
+{
+  "Siri": {
+    "ServiceDelivery": {
+      "ResponseTimestamp": "2025-07-05T19:29:55.381-04:00",
+      "VehicleMonitoringDelivery": [
+        {
+          "VehicleActivity": [
+            {
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_B35",
+                "DirectionRef": "1",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2025-07-05",
+                  "DatedVehicleJourneyRef": "MTA NYCT_JG_C5-Saturday-112900_B35_527"
+                },
+                "JourneyPatternRef": "MTA_B350209",
+                "PublishedLineName": "B35",
+                "OperatorRef": "MTA NYCT",
+                "OriginRef": "MTA_301052",
+                "DestinationName": "McDONALD AV via CHURCH AV",
+                "SituationRef": [
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:9398"
+                  }
+                ],
+                "Monitored": true,
+                "VehicleLocation": {
+                  "Longitude": -73.968553,
+                  "Latitude": 40.647274
+                },
+                "Bearing": 200.93869,
+                "ProgressRate": "normalProgress",
+                "BlockRef": "MTA NYCT_JG_C5-Saturday_A_JG_43500_B35-523",
+                "VehicleRef": "MTA NYCT_450",
+                "MonitoredCall": {
+                  "AimedArrivalTime": "2025-07-05T19:35:36.000-04:00",
+                  "ExpectedArrivalTime": "2025-07-05T19:29:56.209-04:00",
+                  "AimedDepartureTime": "2025-07-05T19:35:36.000-04:00",
+                  "ExpectedDepartureTime": "2025-07-05T19:29:56.209-04:00",
+                  "Extensions": {
+                    "Distances": {
+                      "PresentableDistance": "at stop",
+                      "DistanceFromCall": 17.65,
+                      "StopsFromCall": 0,
+                      "CallDistanceAlongRoute": 5719.56
+                    },
+                    "VehicleFeatures": {
+                      "StrollerVehicle": false
+                    }
+                  },
+                  "StopPointRef": "MTA_302764",
+                  "VisitNumber": 1,
+                  "StopPointName": "CHURCH AV/WESTMINSTER RD"
+                },
+                "OnwardCalls": {}
+              },
+              "RecordedAtTime": "2025-07-05T19:29:49.000-04:00"
+            },
+            {
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_B35",
+                "DirectionRef": "1",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2025-07-05",
+                  "DatedVehicleJourneyRef": "MTA NYCT_JG_C5-Saturday-115500_B35_538"
+                },
+                "JourneyPatternRef": "MTA_B350209",
+                "PublishedLineName": "B35",
+                "OperatorRef": "MTA NYCT",
+                "OriginRef": "MTA_301052",
+                "DestinationName": "McDONALD AV via CHURCH AV",
+                "SituationRef": [
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:9398"
+                  }
+                ],
+                "Monitored": true,
+                "VehicleLocation": {
+                  "Longitude": -73.928466,
+                  "Latitude": 40.652175
+                },
+                "Bearing": 188.1301,
+                "ProgressRate": "normalProgress",
+                "Occupancy": "seatsAvailable",
+                "BlockRef": "MTA NYCT_JG_C5-Saturday_A_JG_63720_B35-538",
+                "VehicleRef": "MTA NYCT_1036",
+                "MonitoredCall": {
+                  "AimedArrivalTime": "2025-07-05T19:33:01.000-04:00",
+                  "ExpectedArrivalTime": "2025-07-05T19:29:56.381-04:00",
+                  "AimedDepartureTime": "2025-07-05T19:33:01.000-04:00",
+                  "ExpectedDepartureTime": "2025-07-05T19:29:56.381-04:00",
+                  "Extensions": {
+                    "Distances": {
+                      "PresentableDistance": "approaching",
+                      "DistanceFromCall": 31.93,
+                      "StopsFromCall": 0,
+                      "CallDistanceAlongRoute": 2261.14
+                    },
+                    "Capacities": {
+                      "EstimatedPassengerCount": 43,
+                      "EstimatedPassengerCapacity": 80,
+                      "EstimatedPassengerLoadFactor": "fewSeatsAvailable"
+                    },
+                    "VehicleFeatures": {
+                      "StrollerVehicle": false
+                    }
+                  },
+                  "StopPointRef": "MTA_302745",
+                  "VisitNumber": 1,
+                  "StopPointName": "CHURCH AV/E 52 ST"
+                },
+                "OnwardCalls": {}
+              },
+              "RecordedAtTime": "2025-07-05T19:29:38.000-04:00"
+            },
+            {
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_B35",
+                "DirectionRef": "1",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2025-07-05",
+                  "DatedVehicleJourneyRef": "MTA NYCT_JG_C5-Saturday-112500_B35_541"
+                },
+                "JourneyPatternRef": "MTA_B350204",
+                "PublishedLineName": "B35",
+                "OperatorRef": "MTA NYCT",
+                "OriginRef": "MTA_301052",
+                "DestinationName": "LIMITED SUNSET PARK 1 AV via CHURCH AV",
+                "SituationRef": [
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:9398"
+                  }
+                ],
+                "Monitored": true,
+                "VehicleLocation": {
+                  "Longitude": -73.979186,
+                  "Latitude": 40.642891
+                },
+                "Bearing": 202.47943,
+                "ProgressRate": "normalProgress",
+                "Occupancy": "seatsAvailable",
+                "BlockRef": "MTA NYCT_JG_C5-Saturday_A_JG_35700_B35-512",
+                "VehicleRef": "MTA NYCT_428",
+                "MonitoredCall": {
+                  "AimedArrivalTime": "2025-07-05T19:38:00.000-04:00",
+                  "ExpectedArrivalTime": "2025-07-05T19:30:15.778-04:00",
+                  "AimedDepartureTime": "2025-07-05T19:38:00.000-04:00",
+                  "ExpectedDepartureTime": "2025-07-05T19:30:15.778-04:00",
+                  "Extensions": {
+                    "Distances": {
+                      "PresentableDistance": "approaching",
+                      "DistanceFromCall": 61.97,
+                      "StopsFromCall": 0,
+                      "CallDistanceAlongRoute": 6785.06
+                    },
+                    "Capacities": {
+                      "EstimatedPassengerCount": 4,
+                      "EstimatedPassengerCapacity": 80,
+                      "EstimatedPassengerLoadFactor": "manySeatsAvailable"
+                    },
+                    "VehicleFeatures": {
+                      "StrollerVehicle": false
+                    }
+                  },
+                  "StopPointRef": "MTA_307947",
+                  "VisitNumber": 1,
+                  "StopPointName": "CHURCH AV/MCDONALD AV"
+                },
+                "OnwardCalls": {}
+              },
+              "RecordedAtTime": "2025-07-05T19:29:50.000-04:00"
+            },
+            {
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_B35",
+                "DirectionRef": "1",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2025-07-05",
+                  "DatedVehicleJourneyRef": "MTA NYCT_JG_C5-Saturday-109900_B35_534"
+                },
+                "JourneyPatternRef": "MTA_B350204",
+                "PublishedLineName": "B35",
+                "OperatorRef": "MTA NYCT",
+                "OriginRef": "MTA_301052",
+                "DestinationName": "LIMITED SUNSET PARK 1 AV via CHURCH AV",
+                "SituationRef": [
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:9398"
+                  }
+                ],
+                "Monitored": true,
+                "VehicleLocation": {
+                  "Longitude": -74.005927,
+                  "Latitude": 40.652473
+                },
+                "Bearing": 149.03624,
+                "ProgressRate": "normalProgress",
+                "Occupancy": "seatsAvailable",
+                "BlockRef": "MTA NYCT_JG_C5-Saturday_A_JG_61500_B35-534",
+                "VehicleRef": "MTA NYCT_1080",
+                "MonitoredCall": {
+                  "AimedArrivalTime": "2025-07-05T19:25:23.000-04:00",
+                  "ExpectedArrivalTime": "2025-07-05T19:30:22.438-04:00",
+                  "AimedDepartureTime": "2025-07-05T19:25:23.000-04:00",
+                  "ExpectedDepartureTime": "2025-07-05T19:30:22.438-04:00",
+                  "Extensions": {
+                    "Distances": {
+                      "PresentableDistance": "approaching",
+                      "DistanceFromCall": 68.14,
+                      "StopsFromCall": 0,
+                      "CallDistanceAlongRoute": 9673.03
+                    },
+                    "Capacities": {
+                      "EstimatedPassengerCount": 2,
+                      "EstimatedPassengerCapacity": 80,
+                      "EstimatedPassengerLoadFactor": "manySeatsAvailable"
+                    },
+                    "VehicleFeatures": {
+                      "StrollerVehicle": false
+                    }
+                  },
+                  "StopPointRef": "MTA_302782",
+                  "VisitNumber": 1,
+                  "StopPointName": "39 ST/4 AV"
+                },
+                "OnwardCalls": {}
+              },
+              "RecordedAtTime": "2025-07-05T19:29:53.000-04:00"
+            },
+            {
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_B35",
+                "DirectionRef": "1",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2025-07-05",
+                  "DatedVehicleJourneyRef": "MTA NYCT_JG_C5-Saturday-111200_B35_535"
+                },
+                "JourneyPatternRef": "MTA_B350204",
+                "PublishedLineName": "B35",
+                "OperatorRef": "MTA NYCT",
+                "OriginRef": "MTA_301052",
+                "DestinationName": "LIMITED SUNSET PARK 1 AV via CHURCH AV",
+                "SituationRef": [
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:9398"
+                  }
+                ],
+                "Monitored": true,
+                "VehicleLocation": {
+                  "Longitude": -73.990179,
+                  "Latitude": 40.642977
+                },
+                "Bearing": 149.14711,
+                "ProgressRate": "normalProgress",
+                "Occupancy": "seatsAvailable",
+                "BlockRef": "MTA NYCT_JG_C5-Saturday_A_JG_62220_B35-535",
+                "VehicleRef": "MTA NYCT_794",
+                "MonitoredCall": {
+                  "AimedArrivalTime": "2025-07-05T19:30:32.000-04:00",
+                  "ExpectedArrivalTime": "2025-07-05T19:29:56.381-04:00",
+                  "AimedDepartureTime": "2025-07-05T19:30:32.000-04:00",
+                  "ExpectedDepartureTime": "2025-07-05T19:29:56.381-04:00",
+                  "Extensions": {
+                    "Distances": {
+                      "PresentableDistance": "approaching",
+                      "DistanceFromCall": 71.41,
+                      "StopsFromCall": 0,
+                      "CallDistanceAlongRoute": 7979.11
+                    },
+                    "Capacities": {
+                      "EstimatedPassengerCount": 7,
+                      "EstimatedPassengerCapacity": 80,
+                      "EstimatedPassengerLoadFactor": "manySeatsAvailable"
+                    },
+                    "VehicleFeatures": {
+                      "StrollerVehicle": false
+                    }
+                  },
+                  "StopPointRef": "MTA_302775",
+                  "VisitNumber": 1,
+                  "StopPointName": "39 ST/FORT HAMILTON PKWY"
+                },
+                "OnwardCalls": {}
+              },
+              "RecordedAtTime": "2025-07-05T19:29:26.188-04:00"
+            },
+            {
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_B35",
+                "DirectionRef": "0",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2025-07-05",
+                  "DatedVehicleJourneyRef": "MTA NYCT_JG_C5-Saturday-114200_B35_528"
+                },
+                "JourneyPatternRef": "MTA_B350012",
+                "PublishedLineName": "B35",
+                "OperatorRef": "MTA NYCT",
+                "OriginRef": "MTA_302692",
+                "DestinationName": "BROWNSVILLE MOTHER GASTON BL via CHURCH",
+                "SituationRef": [
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:9398"
+                  }
+                ],
+                "Monitored": true,
+                "VehicleLocation": {
+                  "Longitude": -73.959375,
+                  "Latitude": 40.650275
+                },
+                "Bearing": 6.9919252,
+                "ProgressRate": "normalProgress",
+                "Occupancy": "seatsAvailable",
+                "BlockRef": "MTA NYCT_JG_C5-Saturday_A_JG_60060_B35-528",
+                "VehicleRef": "MTA NYCT_1085",
+                "MonitoredCall": {
+                  "AimedArrivalTime": "2025-07-05T19:19:00.000-04:00",
+                  "ExpectedArrivalTime": "2025-07-05T19:30:40.824-04:00",
+                  "AimedDepartureTime": "2025-07-05T19:19:00.000-04:00",
+                  "ExpectedDepartureTime": "2025-07-05T19:30:40.824-04:00",
+                  "Extensions": {
+                    "Distances": {
+                      "PresentableDistance": "approaching",
+                      "DistanceFromCall": 99.0,
+                      "StopsFromCall": 0,
+                      "CallDistanceAlongRoute": 2012.37
+                    },
+                    "Capacities": {
+                      "EstimatedPassengerCount": 7,
+                      "EstimatedPassengerCapacity": 80,
+                      "EstimatedPassengerLoadFactor": "manySeatsAvailable"
+                    },
+                    "VehicleFeatures": {
+                      "StrollerVehicle": false
+                    }
+                  },
+                  "StopPointRef": "MTA_302701",
+                  "VisitNumber": 1,
+                  "StopPointName": "CHURCH AV/FLATBUSH AV"
+                },
+                "OnwardCalls": {}
+              },
+              "RecordedAtTime": "2025-07-05T19:29:39.000-04:00"
+            },
+            {
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_B35",
+                "DirectionRef": "1",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2025-07-05",
+                  "DatedVehicleJourneyRef": "MTA NYCT_JG_C5-Saturday-109900_B35_534"
+                },
+                "JourneyPatternRef": "MTA_B350204",
+                "PublishedLineName": "B35",
+                "OperatorRef": "MTA NYCT",
+                "OriginRef": "MTA_301052",
+                "DestinationName": "LIMITED SUNSET PARK 1 AV via CHURCH AV",
+                "SituationRef": [
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:9398"
+                  }
+                ],
+                "Monitored": true,
+                "VehicleLocation": {
+                  "Longitude": -73.981628,
+                  "Latitude": 40.64186
+                },
+                "Bearing": 203.05827,
+                "ProgressRate": "noProgress",
+                "VehicleRef": "MTA NYCT_1090",
+                "MonitoredCall": {
+                  "AimedArrivalTime": "2025-07-05T19:13:20.000-04:00",
+                  "ExpectedArrivalTime": "2025-07-05T19:30:03.364-04:00",
+                  "AimedDepartureTime": "2025-07-05T19:13:20.000-04:00",
+                  "ExpectedDepartureTime": "2025-07-05T19:30:03.364-04:00",
+                  "Extensions": {
+                    "Distances": {
+                      "PresentableDistance": "approaching",
+                      "DistanceFromCall": 113.09,
+                      "StopsFromCall": 0,
+                      "CallDistanceAlongRoute": 7071.94
+                    },
+                    "VehicleFeatures": {
+                      "StrollerVehicle": false
+                    }
+                  },
+                  "StopPointRef": "MTA_302771",
+                  "VisitNumber": 1,
+                  "StopPointName": "CHURCH AV/CHESTER AV"
+                },
+                "OnwardCalls": {}
+              },
+              "RecordedAtTime": "2025-07-05T19:29:34.000-04:00"
+            },
+            {
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_B35",
+                "DirectionRef": "0",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2025-07-05",
+                  "DatedVehicleJourneyRef": "MTA NYCT_JG_C5-Saturday-110600_B35_554"
+                },
+                "JourneyPatternRef": "MTA_B350012",
+                "PublishedLineName": "B35",
+                "OperatorRef": "MTA NYCT",
+                "OriginRef": "MTA_302692",
+                "DestinationName": "BROWNSVILLE MOTHER GASTON BL via CHURCH",
+                "OriginAimedDepartureTime": "2025-07-05T19:37:00.000-04:00",
+                "SituationRef": [
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:9398"
+                  }
+                ],
+                "Monitored": true,
+                "VehicleLocation": {
+                  "Longitude": -73.904272,
+                  "Latitude": 40.656744
+                },
+                "Bearing": 6.340192,
+                "ProgressRate": "noProgress",
+                "ProgressStatus": "layover",
+                "BlockRef": "MTA NYCT_JG_C5-Saturday_A_JG_65820_B35-554",
+                "VehicleRef": "MTA NYCT_1082",
+                "MonitoredCall": {
+                  "AimedArrivalTime": "2025-07-05T19:25:00.000-04:00",
+                  "ExpectedArrivalTime": "2025-07-05T19:30:01.503-04:00",
+                  "AimedDepartureTime": "2025-07-05T19:25:00.000-04:00",
+                  "ExpectedDepartureTime": "2025-07-05T19:30:01.503-04:00",
+                  "Extensions": {
+                    "Distances": {
+                      "PresentableDistance": "approaching",
+                      "DistanceFromCall": 128.88,
+                      "StopsFromCall": 0,
+                      "CallDistanceAlongRoute": 6956.4
+                    },
+                    "VehicleFeatures": {
+                      "StrollerVehicle": false
+                    }
+                  },
+                  "StopPointRef": "MTA_901518",
+                  "VisitNumber": 1,
+                  "StopPointName": "HEGEMAN AV/WATKINS ST"
+                },
+                "OnwardCalls": {}
+              },
+              "RecordedAtTime": "2025-07-05T19:29:26.000-04:00"
+            },
+            {
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_B35",
+                "DirectionRef": "1",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2025-07-05",
+                  "DatedVehicleJourneyRef": "MTA NYCT_JG_C5-Saturday-114200_B35_553"
+                },
+                "JourneyPatternRef": "MTA_B350209",
+                "PublishedLineName": "B35",
+                "OperatorRef": "MTA NYCT",
+                "OriginRef": "MTA_301052",
+                "DestinationName": "McDONALD AV via CHURCH AV",
+                "SituationRef": [
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:9398"
+                  }
+                ],
+                "Monitored": true,
+                "VehicleLocation": {
+                  "Longitude": -73.942562,
+                  "Latitude": 40.651098
+                },
+                "Bearing": 183.65222,
+                "ProgressRate": "normalProgress",
+                "BlockRef": "MTA NYCT_JG_C5-Saturday_A_JG_63000_B35-553",
+                "VehicleRef": "MTA NYCT_435",
+                "MonitoredCall": {
+                  "AimedArrivalTime": "2025-07-05T19:31:51.000-04:00",
+                  "ExpectedArrivalTime": "2025-07-05T19:30:56.369-04:00",
+                  "AimedDepartureTime": "2025-07-05T19:31:51.000-04:00",
+                  "ExpectedDepartureTime": "2025-07-05T19:30:56.369-04:00",
+                  "Extensions": {
+                    "Distances": {
+                      "PresentableDistance": "approaching",
+                      "DistanceFromCall": 141.26,
+                      "StopsFromCall": 0,
+                      "CallDistanceAlongRoute": 3570.41
+                    },
+                    "VehicleFeatures": {
+                      "StrollerVehicle": false
+                    }
+                  },
+                  "StopPointRef": "MTA_302753",
+                  "VisitNumber": 1,
+                  "StopPointName": "CHURCH AV/BROOKLYN AV"
+                },
+                "OnwardCalls": {}
+              },
+              "RecordedAtTime": "2025-07-05T19:29:53.000-04:00"
+            },
+            {
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_B35",
+                "DirectionRef": "0",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2025-07-05",
+                  "DatedVehicleJourneyRef": "MTA NYCT_JG_C5-Saturday-112900_B35_532"
+                },
+                "JourneyPatternRef": "MTA_B350013",
+                "PublishedLineName": "B35",
+                "OperatorRef": "MTA NYCT",
+                "OriginRef": "MTA_308194",
+                "DestinationName": "LIMITED BROWNSVILLE M GASTON via CHURCH",
+                "SituationRef": [
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:9398"
+                  }
+                ],
+                "Monitored": true,
+                "VehicleLocation": {
+                  "Longitude": -73.947907,
+                  "Latitude": 40.650861
+                },
+                "Bearing": 2.4366481,
+                "ProgressRate": "normalProgress",
+                "BlockRef": "MTA NYCT_JG_C5-Saturday_A_JG_57900_B35-532",
+                "VehicleRef": "MTA NYCT_808",
+                "MonitoredCall": {
+                  "AimedArrivalTime": "2025-07-05T19:32:37.000-04:00",
+                  "ExpectedArrivalTime": "2025-07-05T19:31:11.993-04:00",
+                  "AimedDepartureTime": "2025-07-05T19:32:37.000-04:00",
+                  "ExpectedDepartureTime": "2025-07-05T19:31:11.993-04:00",
+                  "Extensions": {
+                    "Distances": {
+                      "PresentableDistance": "approaching",
+                      "DistanceFromCall": 142.69,
+                      "StopsFromCall": 0,
+                      "CallDistanceAlongRoute": 6582.83
+                    },
+                    "VehicleFeatures": {
+                      "StrollerVehicle": false
+                    }
+                  },
+                  "StopPointRef": "MTA_307791",
+                  "VisitNumber": 1,
+                  "StopPointName": "CHURCH AV/NEW YORK AV"
+                },
+                "OnwardCalls": {}
+              },
+              "RecordedAtTime": "2025-07-05T19:29:51.000-04:00"
+            },
+            {
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_B35",
+                "DirectionRef": "1",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2025-07-05",
+                  "DatedVehicleJourneyRef": "MTA NYCT_JG_C5-Saturday-115100_B35_545"
+                },
+                "JourneyPatternRef": "MTA_B350204",
+                "PublishedLineName": "B35",
+                "OperatorRef": "MTA NYCT",
+                "OriginRef": "MTA_301052",
+                "DestinationName": "LIMITED SUNSET PARK 1 AV via CHURCH AV",
+                "SituationRef": [
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:9398"
+                  }
+                ],
+                "Monitored": true,
+                "VehicleLocation": {
+                  "Longitude": -73.918104,
+                  "Latitude": 40.653994
+                },
+                "Bearing": 213.27489,
+                "ProgressRate": "normalProgress",
+                "Occupancy": "seatsAvailable",
+                "BlockRef": "MTA NYCT_JG_C5-Saturday_A_JG_55740_B35-545",
+                "VehicleRef": "MTA NYCT_1095",
+                "MonitoredCall": {
+                  "AimedArrivalTime": "2025-07-05T19:21:02.000-04:00",
+                  "ExpectedArrivalTime": "2025-07-05T19:30:53.634-04:00",
+                  "AimedDepartureTime": "2025-07-05T19:21:02.000-04:00",
+                  "ExpectedDepartureTime": "2025-07-05T19:30:53.634-04:00",
+                  "Extensions": {
+                    "Distances": {
+                      "PresentableDistance": "< 1 stop away",
+                      "DistanceFromCall": 187.37,
+                      "StopsFromCall": 0,
+                      "CallDistanceAlongRoute": 1481.78
+                    },
+                    "Capacities": {
+                      "EstimatedPassengerCount": 7,
+                      "EstimatedPassengerCapacity": 80,
+                      "EstimatedPassengerLoadFactor": "manySeatsAvailable"
+                    },
+                    "VehicleFeatures": {
+                      "StrollerVehicle": false
+                    }
+                  },
+                  "StopPointRef": "MTA_302740",
+                  "VisitNumber": 1,
+                  "StopPointName": "CHURCH AV/REMSEN AV"
+                },
+                "OnwardCalls": {}
+              },
+              "RecordedAtTime": "2025-07-05T19:29:40.000-04:00"
+            },
+            {
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_B35",
+                "DirectionRef": "1",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2025-07-05",
+                  "DatedVehicleJourneyRef": "MTA NYCT_JG_C5-Saturday-113800_B35_526"
+                },
+                "JourneyPatternRef": "MTA_B350204",
+                "PublishedLineName": "B35",
+                "OperatorRef": "MTA NYCT",
+                "OriginRef": "MTA_301052",
+                "DestinationName": "LIMITED SUNSET PARK 1 AV via CHURCH AV",
+                "SituationRef": [
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:9398"
+                  }
+                ],
+                "Monitored": true,
+                "VehicleLocation": {
+                  "Longitude": -73.917865,
+                  "Latitude": 40.654151
+                },
+                "Bearing": 213.27489,
+                "ProgressRate": "normalProgress",
+                "Occupancy": "seatsAvailable",
+                "BlockRef": "MTA NYCT_JG_C5-Saturday_A_JG_39600_B35-510",
+                "VehicleRef": "MTA NYCT_1077",
+                "MonitoredCall": {
+                  "AimedArrivalTime": "2025-07-05T19:09:34.000-04:00",
+                  "ExpectedArrivalTime": "2025-07-05T19:30:55.756-04:00",
+                  "AimedDepartureTime": "2025-07-05T19:09:34.000-04:00",
+                  "ExpectedDepartureTime": "2025-07-05T19:30:55.756-04:00",
+                  "Extensions": {
+                    "Distances": {
+                      "PresentableDistance": "< 1 stop away",
+                      "DistanceFromCall": 214.06,
+                      "StopsFromCall": 0,
+                      "CallDistanceAlongRoute": 1481.78
+                    },
+                    "Capacities": {
+                      "EstimatedPassengerCount": 10,
+                      "EstimatedPassengerCapacity": 80,
+                      "EstimatedPassengerLoadFactor": "manySeatsAvailable"
+                    },
+                    "VehicleFeatures": {
+                      "StrollerVehicle": false
+                    }
+                  },
+                  "StopPointRef": "MTA_302740",
+                  "VisitNumber": 1,
+                  "StopPointName": "CHURCH AV/REMSEN AV"
+                },
+                "OnwardCalls": {}
+              },
+              "RecordedAtTime": "2025-07-05T19:29:29.000-04:00"
+            },
+            {
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_B35",
+                "DirectionRef": "0",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2025-07-05",
+                  "DatedVehicleJourneyRef": "MTA NYCT_JG_C5-Saturday-115300_B35_546"
+                },
+                "JourneyPatternRef": "MTA_B350013",
+                "PublishedLineName": "B35",
+                "OperatorRef": "MTA NYCT",
+                "OriginRef": "MTA_308194",
+                "DestinationName": "LIMITED BROWNSVILLE M GASTON via CHURCH",
+                "SituationRef": [
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:9398"
+                  }
+                ],
+                "Monitored": true,
+                "VehicleLocation": {
+                  "Longitude": -73.992526,
+                  "Latitude": 40.644393
+                },
+                "Bearing": 328.8572,
+                "ProgressRate": "normalProgress",
+                "Occupancy": "seatsAvailable",
+                "BlockRef": "MTA NYCT_JG_C5-Saturday_A_JG_68760_B35-546",
+                "VehicleRef": "MTA NYCT_1075",
+                "MonitoredCall": {
+                  "AimedArrivalTime": "2025-07-05T19:27:47.000-04:00",
+                  "ExpectedArrivalTime": "2025-07-05T19:30:52.748-04:00",
+                  "AimedDepartureTime": "2025-07-05T19:27:47.000-04:00",
+                  "ExpectedDepartureTime": "2025-07-05T19:30:52.748-04:00",
+                  "Extensions": {
+                    "Distances": {
+                      "PresentableDistance": "< 1 stop away",
+                      "DistanceFromCall": 257.53,
+                      "StopsFromCall": 0,
+                      "CallDistanceAlongRoute": 2359.39
+                    },
+                    "Capacities": {
+                      "EstimatedPassengerCount": 27,
+                      "EstimatedPassengerCapacity": 80,
+                      "EstimatedPassengerLoadFactor": "manySeatsAvailable"
+                    },
+                    "VehicleFeatures": {
+                      "StrollerVehicle": false
+                    }
+                  },
+                  "StopPointRef": "MTA_302687",
+                  "VisitNumber": 1,
+                  "StopPointName": "39 ST/FORT HAMILTON PKWY"
+                },
+                "OnwardCalls": {}
+              },
+              "RecordedAtTime": "2025-07-05T19:29:30.000-04:00"
+            },
+            {
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_B35",
+                "DirectionRef": "1",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2025-07-05",
+                  "DatedVehicleJourneyRef": "MTA NYCT_JG_C5-Saturday-108600_B35_533"
+                },
+                "JourneyPatternRef": "MTA_B350204",
+                "PublishedLineName": "B35",
+                "OperatorRef": "MTA NYCT",
+                "OriginRef": "MTA_301052",
+                "DestinationName": "LIMITED SUNSET PARK 1 AV via CHURCH AV",
+                "SituationRef": [
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:9398"
+                  }
+                ],
+                "Monitored": true,
+                "VehicleLocation": {
+                  "Longitude": -74.003925,
+                  "Latitude": 40.651274
+                },
+                "Bearing": 149.03624,
+                "ProgressRate": "normalProgress",
+                "Occupancy": "seatsAvailable",
+                "BlockRef": "MTA NYCT_JG_C5-Saturday_A_JG_21600_B35-509",
+                "VehicleRef": "MTA NYCT_1079",
+                "MonitoredCall": {
+                  "AimedArrivalTime": "2025-07-05T19:12:23.000-04:00",
+                  "ExpectedArrivalTime": "2025-07-05T19:31:45.402-04:00",
+                  "AimedDepartureTime": "2025-07-05T19:12:23.000-04:00",
+                  "ExpectedDepartureTime": "2025-07-05T19:31:45.402-04:00",
+                  "Extensions": {
+                    "Distances": {
+                      "PresentableDistance": "< 1 stop away",
+                      "DistanceFromCall": 283.33,
+                      "StopsFromCall": 0,
+                      "CallDistanceAlongRoute": 9673.03
+                    },
+                    "Capacities": {
+                      "EstimatedPassengerCount": 26,
+                      "EstimatedPassengerCapacity": 80,
+                      "EstimatedPassengerLoadFactor": "manySeatsAvailable"
+                    },
+                    "VehicleFeatures": {
+                      "StrollerVehicle": false
+                    }
+                  },
+                  "StopPointRef": "MTA_302782",
+                  "VisitNumber": 1,
+                  "StopPointName": "39 ST/4 AV"
+                },
+                "OnwardCalls": {}
+              },
+              "RecordedAtTime": "2025-07-05T19:29:43.000-04:00"
+            },
+            {
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_B35",
+                "DirectionRef": "0",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2025-07-05",
+                  "DatedVehicleJourneyRef": "MTA NYCT_JG_C5-Saturday-114100_B35_531"
+                },
+                "JourneyPatternRef": "MTA_B350013",
+                "PublishedLineName": "B35",
+                "OperatorRef": "MTA NYCT",
+                "OriginRef": "MTA_308194",
+                "DestinationName": "LIMITED BROWNSVILLE M GASTON via CHURCH",
+                "SituationRef": [
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:9398"
+                  }
+                ],
+                "Monitored": true,
+                "VehicleLocation": {
+                  "Longitude": -73.961614,
+                  "Latitude": 40.649943
+                },
+                "Bearing": 14.6887865,
+                "ProgressRate": "normalProgress",
+                "Occupancy": "seatsAvailable",
+                "BlockRef": "MTA NYCT_JG_C5-Saturday_A_JG_26940_B35-517",
+                "VehicleRef": "MTA NYCT_1096",
+                "MonitoredCall": {
+                  "AimedArrivalTime": "2025-07-05T19:37:02.000-04:00",
+                  "ExpectedArrivalTime": "2025-07-05T19:32:28.488-04:00",
+                  "AimedDepartureTime": "2025-07-05T19:37:02.000-04:00",
+                  "ExpectedDepartureTime": "2025-07-05T19:32:28.488-04:00",
+                  "Extensions": {
+                    "Distances": {
+                      "PresentableDistance": "< 1 stop away",
+                      "DistanceFromCall": 291.95,
+                      "StopsFromCall": 0,
+                      "CallDistanceAlongRoute": 5568.57
+                    },
+                    "Capacities": {
+                      "EstimatedPassengerCount": 16,
+                      "EstimatedPassengerCapacity": 80,
+                      "EstimatedPassengerLoadFactor": "manySeatsAvailable"
+                    },
+                    "VehicleFeatures": {
+                      "StrollerVehicle": false
+                    }
+                  },
+                  "StopPointRef": "MTA_302701",
+                  "VisitNumber": 1,
+                  "StopPointName": "CHURCH AV/FLATBUSH AV"
+                },
+                "OnwardCalls": {}
+              },
+              "RecordedAtTime": "2025-07-05T19:29:53.000-04:00"
+            },
+            {
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_B35",
+                "DirectionRef": "0",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2025-07-05",
+                  "DatedVehicleJourneyRef": "MTA NYCT_JG_C5-Saturday-113000_B35_543"
+                },
+                "JourneyPatternRef": "MTA_B350012",
+                "PublishedLineName": "B35",
+                "OperatorRef": "MTA NYCT",
+                "OriginRef": "MTA_302692",
+                "DestinationName": "BROWNSVILLE MOTHER GASTON BL via CHURCH",
+                "SituationRef": [
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:9398"
+                  }
+                ],
+                "Monitored": true,
+                "VehicleLocation": {
+                  "Longitude": -73.941369,
+                  "Latitude": 40.651175
+                },
+                "Bearing": 3.7290874,
+                "ProgressRate": "normalProgress",
+                "Occupancy": "standingAvailable",
+                "BlockRef": "MTA NYCT_JG_C5-Saturday_A_JG_67260_B35-543",
+                "VehicleRef": "MTA NYCT_1105",
+                "MonitoredCall": {
+                  "AimedArrivalTime": "2025-07-05T19:23:55.000-04:00",
+                  "ExpectedArrivalTime": "2025-07-05T19:31:29.453-04:00",
+                  "AimedDepartureTime": "2025-07-05T19:23:55.000-04:00",
+                  "ExpectedDepartureTime": "2025-07-05T19:31:29.453-04:00",
+                  "Extensions": {
+                    "Distances": {
+                      "PresentableDistance": "< 1 stop away",
+                      "DistanceFromCall": 311.09,
+                      "StopsFromCall": 0,
+                      "CallDistanceAlongRoute": 3748.39
+                    },
+                    "Capacities": {
+                      "EstimatedPassengerCount": 63,
+                      "EstimatedPassengerCapacity": 80,
+                      "EstimatedPassengerLoadFactor": "standingRoomOnly"
+                    },
+                    "VehicleFeatures": {
+                      "StrollerVehicle": false
+                    }
+                  },
+                  "StopPointRef": "MTA_302710",
+                  "VisitNumber": 1,
+                  "StopPointName": "CHURCH AV/E 42 ST"
+                },
+                "OnwardCalls": {}
+              },
+              "RecordedAtTime": "2025-07-05T19:29:26.000-04:00"
+            },
+            {
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_B35",
+                "DirectionRef": "1",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2025-07-05",
+                  "DatedVehicleJourneyRef": "MTA NYCT_JG_C5-Saturday-116400_B35_529"
+                },
+                "JourneyPatternRef": "MTA_B350204",
+                "PublishedLineName": "B35",
+                "OperatorRef": "MTA NYCT",
+                "OriginRef": "MTA_301052",
+                "DestinationName": "LIMITED SUNSET PARK 1 AV via CHURCH AV",
+                "SituationRef": [
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:9398"
+                  }
+                ],
+                "Monitored": true,
+                "VehicleLocation": {
+                  "Longitude": -73.914262,
+                  "Latitude": 40.656451
+                },
+                "Bearing": 214.42342,
+                "ProgressRate": "normalProgress",
+                "Occupancy": "seatsAvailable",
+                "BlockRef": "MTA NYCT_JG_C5-Saturday_A_JG_56460_B35-529",
+                "VehicleRef": "MTA NYCT_1089",
+                "MonitoredCall": {
+                  "AimedArrivalTime": "2025-07-05T19:34:02.000-04:00",
+                  "ExpectedArrivalTime": "2025-07-05T19:33:49.280-04:00",
+                  "AimedDepartureTime": "2025-07-05T19:34:02.000-04:00",
+                  "ExpectedDepartureTime": "2025-07-05T19:33:49.280-04:00",
+                  "Extensions": {
+                    "Distances": {
+                      "PresentableDistance": "< 1 stop away",
+                      "DistanceFromCall": 611.42,
+                      "StopsFromCall": 0,
+                      "CallDistanceAlongRoute": 1481.78
+                    },
+                    "Capacities": {
+                      "EstimatedPassengerCount": 4,
+                      "EstimatedPassengerCapacity": 80,
+                      "EstimatedPassengerLoadFactor": "manySeatsAvailable"
+                    },
+                    "VehicleFeatures": {
+                      "StrollerVehicle": false
+                    }
+                  },
+                  "StopPointRef": "MTA_302740",
+                  "VisitNumber": 1,
+                  "StopPointName": "CHURCH AV/REMSEN AV"
+                },
+                "OnwardCalls": {}
+              },
+              "RecordedAtTime": "2025-07-05T19:29:49.000-04:00"
+            },
+            {
+              "MonitoredVehicleJourney": {
+                "LineRef": "MTA NYCT_B35",
+                "DirectionRef": "0",
+                "FramedVehicleJourneyRef": {
+                  "DataFrameRef": "2025-07-05",
+                  "DatedVehicleJourneyRef": "MTA NYCT_JG_C5-Saturday-109300_B35_544"
+                },
+                "JourneyPatternRef": "MTA_B350013",
+                "PublishedLineName": "B35",
+                "OperatorRef": "MTA NYCT",
+                "OriginRef": "MTA_308194",
+                "DestinationName": "LIMITED BROWNSVILLE M GASTON via CHURCH",
+                "SituationRef": [
+                  {
+                    "SituationSimpleRef": "MTA NYCT_lmm:planned_work:9398"
+                  }
+                ],
+                "Monitored": true,
+                "VehicleLocation": {
+                  "Longitude": -73.946193,
+                  "Latitude": 40.650946
+                },
+                "Bearing": 2.9666092,
+                "ProgressRate": "normalProgress",
+                "Occupancy": "seatsAvailable",
+                "BlockRef": "MTA NYCT_JG_C5-Saturday_A_JG_55560_B35-544",
+                "VehicleRef": "MTA NYCT_1088",
+                "MonitoredCall": {
+                  "AimedArrivalTime": "2025-07-05T19:02:01.000-04:00",
+                  "ExpectedArrivalTime": "2025-07-05T19:34:10.995-04:00",
+                  "AimedDepartureTime": "2025-07-05T19:02:01.000-04:00",
+                  "ExpectedDepartureTime": "2025-07-05T19:34:10.995-04:00",
+                  "Extensions": {
+                    "Distances": {
+                      "PresentableDistance": "< 1 stop away",
+                      "DistanceFromCall": 719.54,
+                      "StopsFromCall": 0,
+                      "CallDistanceAlongRoute": 7304.6
+                    },
+                    "Capacities": {
+                      "EstimatedPassengerCount": 56,
+                      "EstimatedPassengerCapacity": 80,
+                      "EstimatedPassengerLoadFactor": "fewSeatsAvailable"
+                    },
+                    "VehicleFeatures": {
+                      "StrollerVehicle": false
+                    }
+                  },
+                  "StopPointRef": "MTA_302710",
+                  "VisitNumber": 1,
+                  "StopPointName": "CHURCH AV/E 42 ST"
+                },
+                "OnwardCalls": {}
+              },
+              "RecordedAtTime": "2025-07-05T19:29:51.000-04:00"
+            }
+          ],
+          "ResponseTimestamp": "2025-07-05T19:29:55.381-04:00",
+          "ValidUntil": "2025-07-05T19:30:55.381-04:00"
+        }
+      ],
+      "SituationExchangeDelivery": [
+        {
+          "Situations": {
+            "PtSituationElement": [
+              {
+                "PublicationWindow": {
+                  "StartTime": "2023-04-01T00:00:58.000-04:00",
+                  "EndTime": "2025-12-31T19:00:00.000-05:00"
+                },
+                "Severity": "undefined",
+                "Summary": "B35 stops on 39th St at 1st Ave in both directions and eastbound stops on 39th St at 2nd Ave and 3rd Ave are closed",
+                "Description": "B35 stops on 39th St at 1st Ave in both directions and eastbound stops on 39th St at 2nd Ave and 3rd Ave are closed\nBuses start and end their trips at a temporary location on 2nd Ave at 37th St and make an eastbound stop on 37th St and 4th Ave at the existing B70 bus stop.\n(See map)\n\nWhat's happening?\nNYC DEP Sewer Replacement\n\nNote: Real-time tracking on BusTime may be inaccurate in the service change area.",
+                "Affects": {
+                  "VehicleJourneys": {
+                    "AffectedVehicleJourney": [
+                      {
+                        "LineRef": "MTA NYCT_B35",
+                        "DirectionRef": "1"
+                      },
+                      {
+                        "LineRef": "MTA NYCT_B35",
+                        "DirectionRef": "0"
+                      }
+                    ]
+                  }
+                },
+                "CreationTime": "2023-03-31T08:57:16.000-04:00",
+                "SituationNumber": "MTA NYCT_lmm:planned_work:9398"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
