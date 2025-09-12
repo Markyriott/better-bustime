@@ -5,28 +5,76 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.List;
 
-public record SiriResponse(@JsonProperty("Siri") Siri siri) {
-    public record Siri(@JsonProperty("ServiceDelivery") ServiceDelivery serviceDelivery){}
+public record SiriResponse(Siri Siri) {
+
+    public record Siri(ServiceDelivery ServiceDelivery){}
 
     @JsonIgnoreProperties(ignoreUnknown = true)
     public record ServiceDelivery(
-            @JsonProperty("ResponseTimestamp") String responseTimestamp,
-            @JsonProperty("VehicleMonitoringDelivery") List<VehicleMonitoringDelivery> vehicleMonitoringDelivery,
-            @JsonProperty("SituationExchangeDelivery") List<SituationExchangeDelivery> situationExchangeDelivery
+            String ResponseTimestamp,
+            List<VehicleMonitoringDelivery> VehicleMonitoringDelivery,
+            List<SituationExchangeDelivery> SituationExchangeDelivery
     ){}
 
     public record VehicleMonitoringDelivery(
-            /*@JsonProperty("VehicleActivity")*/ List<VehicleActivity> VehicleActivity,
-            @JsonProperty("ResponseTimestamp") String responseTimestamp,
-            @JsonProperty("ValidUntil") String validUntil
+            List<VehicleActivity> VehicleActivity,
+            String ResponseTimestamp,
+            String ValidUntil
     ){}
 
     public record VehicleActivity(
-            @JsonProperty("MonitoredVehicleJourney") MonitoredVehicleJourney monitoredVehicleJourney,
-            String RecordedAtTime //@JsonProperty("RecordedAtTime") String recordedAtTime
+            MonitoredVehicleJourney MonitoredVehicleJourney,
+            String RecordedAtTime
     ){}
 
-    public record MonitoredVehicleJourney(){}
+    public record MonitoredVehicleJourney(
+            String LineRef,
+            String DirectionRef,
+            //@JsonProperty("FramedVehicleJourneyRef") Object framedVehicleJourney
+            String JourneyPatternRef,
+            String PublishedLineName,
+            String OperatorRef,
+            String OriginRef,
+            String DestinationName,
+            //@JsonProperty("SituationRef") Object situationRef,
+            String Monitored,
+            VehicleLocation VehicleLocation,
+            Double Bearing,
+            String ProgressRate,
+            String BlockRef,
+            String VehicleRef,
+            MonitoredCall MonitoredCall
+            //@JsonProperty("OnwardCalls") Object onwardCalls
+    ){}
+
+    //public record FramedVehicleJourney(){}
+    //public record SituationRef(){}
+    public record VehicleLocation(
+            String Longitude,
+            String Latitude
+    ){}
+
+    public record MonitoredCall(
+            Extensions Extensions
+    ){}
+
+    public record Extensions(
+            Distances Distances,
+            //@JsonProperty("Capacities") Object capacities,
+            VehicleFeatures VehicleFeatures
+    ){}
+
+    public record Distances(
+            String PresentableDistance,
+            Double DistanceFromCall,
+            Integer StopsFromCall,
+            Double CallDistanceAlongRoute
+    ){}
+
+    //public record Capacities(){}
+    public record VehicleFeatures(
+            Boolean StrollerVehicle
+    ){}
 
     public record SituationExchangeDelivery(){}
 }

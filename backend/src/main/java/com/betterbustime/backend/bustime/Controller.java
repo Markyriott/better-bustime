@@ -10,19 +10,21 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Controller {
 
+    @Autowired
     private RedisTemplate<String, Object> redisTemplate;
-
 
     @PostMapping
     public void save(@RequestBody SiriResponse body) {
         System.out.println(body
-                .siri()
-                .serviceDelivery()
-                .vehicleMonitoringDelivery()
+                .Siri()
+                .ServiceDelivery()
+                .VehicleMonitoringDelivery()
                 .getFirst()
                 .VehicleActivity()
-                .getFirst()
-                .RecordedAtTime());
+                .get(2)
+                .MonitoredVehicleJourney()
+                .Bearing()
+        );
     }
 
     @GetMapping("/bus")
