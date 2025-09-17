@@ -48,7 +48,9 @@ public record SiriResponse(Siri Siri) {
     ){}
 
     //public record FramedVehicleJourney(){}
+
     //public record SituationRef(){}
+
     public record VehicleLocation(
             String Longitude,
             String Latitude
@@ -72,6 +74,7 @@ public record SiriResponse(Siri Siri) {
     ){}
 
     //public record Capacities(){}
+
     public record VehicleFeatures(
             Boolean StrollerVehicle
     ){}
